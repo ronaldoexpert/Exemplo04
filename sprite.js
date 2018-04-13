@@ -12,6 +12,7 @@ function Sprite() {
   this.acel = 0;
   this.cor = "grey";
   this.imunidade = 0;
+  this.cdTiro = 0;
 }
 
 Sprite.prototype.desenhar = function (ctx) {
